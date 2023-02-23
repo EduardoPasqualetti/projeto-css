@@ -1,12 +1,76 @@
-body {
-    font-family: sans-serif;
-    color: grey;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*  Reset de Propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+}
+
+/* Informações Genéricas */
+
+.container-grid {
+    width: 80%;
+    margin: 0 auto;
+    background-color: purple;
+
+}
+
+
+
+/***** CABEÇALHO  *****/
 header {
     background-color: grey;
 }
 
-a {
-    color: white }
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    font-weight: 300;
+    width: 150px;
+    border: 2px solid white;
+
+}
+header h1 #logoux {
+    font-weight: 600;
+    font-style: italic;
+}
+
+header nav {
+    border: 2px solid white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+/* h2{
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 200px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    border: 2px solid red;
+}  */
+
+h2 {
+    
+}
