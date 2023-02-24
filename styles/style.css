@@ -8,10 +8,10 @@
 }
 
 
-
 body {
     font-family: 'Quicksand', sans-serif;
     color: grey;
+    
 }
 
 /* Informações Genéricas */
@@ -19,7 +19,7 @@ body {
 .container-grid {
     width: 80%;
     margin: 0 auto;
-    background-color: purple;
+ 
 
 }
 
@@ -39,7 +39,7 @@ header h1 {
     color: white;
     font-weight: 300;
     width: 150px;
-    border: 2px solid white;
+   
 
 }
 header h1 #logoux {
@@ -48,7 +48,12 @@ header h1 #logoux {
 }
 
 header nav {
-    border: 2px solid white;
+   
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+    margin-right: 8px;
 }
 
 header nav a {
@@ -57,20 +62,41 @@ header nav a {
    
 }
 
-/* h2{
-    width: 300px;
-    height: 40px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 200px;
-    margin-bottom: 15px;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+/* MAIN */
 
-    border: 2px solid red;
-}  */
-
-h2 {
-    
+main {
+    background-color: grey;
+    height: 100%;
 }
+
+
+main .colunas-flex {
+
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color:grey;
+   
+
+}
+
+main .coluna1{
+
+    width: 75%;
+    background-color: white;
+    border: 
+}
+ main .coluna2 {
+
+    width: 20%;
+    background-color: white;
+ }
+
+#lapis {
+    width: 100%;
+}
+
+
